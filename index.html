@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Group-124.ico" type="image/x-icon">
+    <title>Dental Clinic
+    </title>
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header__base">
+            <a class="header__logo " href="/"> <img src="./img/header/logo_blue.svg" alt="логотип Dental Clinic"></a>
+            <div class="header__location">
+                <div class="header__locationContainer">
+                    <img src="./img/header/pin.svg" alt="Иконка пина">
+                    <div class="header__locationItem">Трехгорка</div>
+                    <img src="./img/header/arrow2.svg" alt="">
+                </div>
+            </div>
+            <div class="header__workHour">ПН-ВС 8:00 до 23:00</div>
+        </div>
+        <div class="header__feedback ">
+            <div class="header__call ">
+                <img src="./img/header/phone.svg" alt="Иконка позвонить">
+                <button class="btn btn__header">Онлайн-запись</button>
+            </div>
+            <div class="icons header__icons ">
+                <a class="icon" href="#"><img src="./img/header/whatsapp.svg" alt="Ватсап"></a>
+                <a class="icon" href="#"><img src="./img/header/telegramm.svg" alt="Телеграмм"></a>
+                <a class="icon" href="#"><img src="./img/header/insta.svg" alt="Инстаграмм"></a>
+                <a class="icon" href="#"><img src="./img/header/vk.svg" alt="Вконтакте "></a>
+                <a class="icon" href="#"><img src="./img/header/viber.svg" alt="Вайбер"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="mainBanner container">
+            <div class="mainBanner__titleContainer">
+                <div class="mainBanner__titleWrap">
+                    <span class="mainBanner__subtitle">Семейная стоматология</span>
+                    <h1 class="h1">Надежное лечение зубов</h1>
+                    <div class="mainBanner__places">
+                        <div class="mainBanner__place">
+                            <img class="mainBanner__placeImg" src="./img/header/pin.svg" alt="пин">
+                            <div class="mainBanner__placeTitle">
+                                Трехгорка
+                            </div>
+                        </div>
+                        <div class="mainBanner__place">
+                            <img class="mainBanner__placeImg" src="./img/header/pin.svg" alt="пин">
+                            <div class="mainBanner__placeTitle">
+                                Сколково
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainBanner__services">
+                    <div class="mainBanner__service">
+                        <div class="mainBanner__serviceTitle">Лечение кариеса</div>
+                    </div>
+                    <div class="mainBanner__service">
+                        <div class="mainBanner__serviceTitle">Диагностика</div>
+                    </div>
+                    <div class="mainBanner__service">
+                        <div class="mainBanner__serviceTitle">Установка<br> брекет-системы</div>
+                    </div>
+                    <div class="mainBanner__service mainBanner__service--active">
+                        <div class="mainBanner__serviceTitle">Больше услуг</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item more"></div>
+            </div>
+
+
+
+        </section>
+
+        <section class="features container">
+            <div class="features__item">
+                <img class="features__img" src="/src/img/features/rub.svg" alt="Иконка рубля">
+                <div class="features__tittle">Без доплат и переплат.
+                    Фиксированная стоимость</div>
+            </div>
+            <div class="features__item">
+                <img class="features__img" src="/src/img/features/comment.svg" alt="Иконка звездочек">
+                <div class="features__tittle">Более <b>200</b> отзывов
+                    5 звезд на всех площадках</div>
+            </div>
+            <div class="features__item">
+                <img class="features__img" src="/src/img/features/Icon.svg" alt="Иконка рубля">
+                <div class="features__tittle">Современное борудование
+                    и обезболивание</div>
+            </div>
+            <div class="features__item">
+                <img class="features__img" src="/src/img/features/teath.svg" alt="Иконка рубля">
+                <div class="features__tittle">Спасаем зубы, за которые
+                    другие клиники не берутся</div>
+            </div>
+        </section>
+
+        <section class="consult container">
+            <div class="consult__feedback">
+                <form class="consult__feedbackForm" action="#" method="get">
+                    <div class="consult__feedbackWrap">
+                        <div class="feedbackForm__wrap">
+                            <input class="input inputTel" type="tel" name="tel" id="feedbackTel"
+                                placeholder="+7 (965) 000 00 00">
+                            <input class="input inputEmail" type="email" id="feedbackEmail" placeholder="email">
+                            <input class="input inputText" type="text" id="feedbackName" placeholder="Имя Фамилия">
+                        </div>
+                        <div class="present">
+                            <div class="presentTitleWrap">
+                                <img src="./img/consult/Present.svg" alt="">
+                                <div class="present__title">Получите<br> подарок<br>
+                                    от клиники</div>
+                            </div>
+                            <div class="present__subtitle">Бесплатная диагностика<br>
+                                на прицельном визиографе.<br>
+                                С мгновенным результатом.</div>
+                            <input class="button" type="button" value="Записаться">
+                        </div>
+                    </div>
+                    <span class="consult__agree">Нажимая на кнопку, вы даете согласие на обработку своих персональных
+                        данных <br> и соглашаетесь с <a class="consult__link" href="#">Политикой
+                            конфиденциальности</a></span>
+                </form>
+            </div>
+
+            <div class="consult__titleWrap">
+                <div class="consult__title">Запишитесь<br>
+                    на первичную
+                    консультацию</div>
+                <div class="consult__subtitle">и получите 2-3 плана качественного
+                    лечения под ваш бюджет</div>
+            </div>
+
+        </section>
+
+        <section class="about">
+            <div class="about__title">
+                За последний год мы
+                спасли и защитили зубы
+                1600 пациентам
+            </div>
+            <div class="about__descriptionWrap">
+                <div class="about__subtitle">
+                    Здравствуйте!
+                    Меня зовут Акопов Давид Юрьевич,
+                    я главный врач в стоматологии EcoDent
+                </div>
+                <div class="about__text">
+                    <p>За 15 лет моей практики самая распространённая
+                        проблема — позднее обращение пациента.</p>
+
+                    <p>Каждый зуб — отдельный орган, который несёт свою
+                        функцию. Потеря даже одного зуба приводит к деформации соседних, нарушению прикуса. Нагрузка на
+                        оставшиеся
+                        зубы возрастает, что сокращает срок их жизни.</p>
+
+                    <p>Я рекомендую обращаться как можно раньше
+                        к специалисту и не дожидаться боли. А ещё лучше
+                        планово ходить на осмотры.</p>
+                </div>
+
+            </div>
+            <div class="about__portrait">
+                <img src="./img/about/akapov_main.webp" alt="фото врача">
+                <div class="about__portraitSignature">
+                    <div class="about__portraitSignatureText">
+                        <b>Акопов Давид Юрьевич</b><br>
+                        Главный врач, Хирург-имплантолог, ортопед
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="points">
+            <h2 class="h2">Получите 3 варианта лечения ваших зубов
+                с аргументацией и стоимостью лечения</h2>
+            <div class="points__items">
+                <div class="points__item">
+                    <div class="points__wrap">
+                        <div class="points__num">1</div>
+                        <div class="points__text">План будет изложен простым языком, понятным даже далекому от медицины
+                            пациенту</div>
+                    </div>
+                    <div class="linkWrap">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+                <div class="points__item">
+                    <div class="points__wrap">
+                        <div class="points__num">2</div>
+                        <div class="points__text">Врач произведёт осмотр состояния полости рта и обследует с применением
+                            современного оборудования
+                            пациенту</div>
+                    </div>
+                    <div class="linkWrap">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+                <div class="points__item">
+                    <div class="points__wrap">
+                        <div class="points__num">3</div>
+                        <div class="points__text">Определит продолжительность и предложит 2-3 варианта лечения, по
+                            комфортной
+                            для вас стоимости
+                            пациенту</div>
+                    </div>
+                    <div class="linkWrap">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+                <div class="points__item">
+                    <div class="points__wrap">
+                        <img class="points__img" src="/src/img/points/Icon Teeth.svg" alt="зубик">
+                        <div class="points__text">При необходимости назначит консультацию у врача ортодонта
+                            пациенту</div>
+                    </div>
+                    <div class="linkWrap">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+            </div>
+            <div class="points__back">
+                <img src="./img/points/Group.png" alt="">
+            </div>
+        </section>
+
+        <section class="trust">
+            <h2 class="h2">Постоянные клиенты доверяют нашему
+                профессионализму на протяжении
+                более 15 лет</h2>
+
+            <div class="trust__items">
+                <div class="trust__item">
+                    <div class="trust__title">Сохраняем зуб даже при малейшей возможности</div>
+                    <div class="trust__description">При возможности и восстанавливаем форму и функциональность зуба,
+                        без использования имплантов</div>
+                    <img class="trust__img--first" src="./img/trust/save.png" alt="">
+                </div>
+                <div class="trust__item">
+
+                    <div class="trust__title">Перед лечением зуба, выясняем первопричину болезни</div>
+                    <div class="trust__description">На состояние зубов порой влияют хронические заболевания (такие
+                        как, сахарный диабет, гипертония,
+                        остеопороз, артрит и тд)</div>
+
+                    <img class="trust__img" src="./img/trust/search.webp" alt="">
+                </div>
+                <div class="trust__item">
+                    <div class="trust__title">Без болли</div>
+                    <div class="trust__description">Индивидуально подбираем объём обезболивающего, чтобы снизить
+                        неприятные ощущения к минимуму</div>
+                    <img class="trust__img" src="./img/trust/no_pane.webp" alt="">
+                </div>
+                <div class="trust__item">
+                    <div class="trust__title">Восстанавливаем жевательную
+                        функцию зубов</div>
+                    <div class="trust__description">При возможности и восстанавливаем форму и функциональность зуба,
+                        без использования имплантов</div>
+                    <img class="trust__img" src="./img/trust/chew.webp" alt="">
+                </div>
+                <div class="trust__item">
+                    <div class="trust__title">Работа в 4 руки увеличивает качество
+                        и скорость лечения</div>
+                    <div class="trust__description">Ассистент в тандеме
+                        со стоматологом обеспечивает комфорт и чистоту всего процесса</div>
+                    <img class="trust__img" src="./img/trust/four_heands.webp" alt="">
+                </div>
+                <div class="trust__item">
+                    <div class="trust__title">Весь спектр услуг
+                        и специалистов
+                        в одном месте</div>
+                    <div class="trust__description">В клинике работают специалисты: (терапевт, пародонтолог, ортодонт,
+                        хирург-имплантолог, ортопед)</div>
+                    <img class="trust__img" src="./img/trust/all_spectre.webp" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="services">
+            <h2 class="h2">Постоянные клиенты доверяют нашему
+                профессионализму на протяжении
+                более 15 лет</h2>
+            <div class="services__items">
+                <div class="services__item">
+                    <div class="services__title">Терапия</div>
+                    <ul class="services__list">
+                        <li class="services__listItem">Профилактика</li>
+                        <li class="services__listItem">Отбеливание</li>
+                        <li class="services__listItem">Лечение кариеса</li>
+                        <li class="services__listItem">Лечение пульпита</li>
+                        <li class="services__listItem">Лечение периодонтита</li>
+                    </ul>
+                    <button href="" class="btn btn__services">Задать вопрос по WhatsApp </button>
+                    <div class="linkWrap linkWrap__services ">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__title">Терапия</div>
+                    <ul class="services__list">
+                        <li class="services__listItem">Профилактика</li>
+                        <li class="services__listItem">Отбеливание</li>
+                        <li class="services__listItem">Лечение кариеса</li>
+                        <li class="services__listItem">Лечение пульпита</li>
+                        <li class="services__listItem">Лечение периодонтита</li>
+                    </ul>
+                    <button href="" class="btn btn__services">Задать вопрос по WhatsApp </button>
+                    <div class="linkWrap linkWrap__services ">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__title">Терапия</div>
+                    <ul class="services__list">
+                        <li class="services__listItem">Профилактика</li>
+                        <li class="services__listItem">Отбеливание</li>
+                        <li class="services__listItem">Лечение кариеса</li>
+                        <li class="services__listItem">Лечение пульпита</li>
+                        <li class="services__listItem">Лечение периодонтита</li>
+                    </ul>
+                    <button href="" class="btn btn__services">Задать вопрос по WhatsApp </button>
+                    <div class="linkWrap linkWrap__services ">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__title">Терапия</div>
+                    <ul class="services__list">
+                        <li class="services__listItem">Профилактика</li>
+                        <li class="services__listItem">Отбеливание</li>
+                        <li class="services__listItem">Лечение кариеса</li>
+                        <li class="services__listItem">Лечение пульпита</li>
+                        <li class="services__listItem">Лечение периодонтита</li>
+                    </ul>
+                    <button href="" class="btn btn__services">Задать вопрос в WhatsApp </button>
+                    <div class="linkWrap linkWrap__services ">
+                        <a href="#" class="linkWrap__link">Подробнее</a>
+                        <img src="./img/points/Arrow 1.svg" alt="стрелка">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="before-after">
+            До и после
+        </section>
+
+        <section class="prices">
+            Цены
+        </section>
+
+        <section class="team">
+            Наша команда
+        </section>
+
+        <section class="like_home">
+            Наша атмосфера
+        </section>
+
+        <section class="photos">
+            галлерея
+        </section>
+
+        <section class="licenze">
+            Лицензия
+        </section>
+
+        <section class="reviews">
+            Отзывы
+        </section>
+
+        <section class="cart">
+            Карта
+        </section>
+
+        <footer>
+            Подвал
+        </footer>
+    </main>
+
+</body>
+
+</html>
